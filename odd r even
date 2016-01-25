@@ -1,0 +1,18 @@
+import java.util.scanner;
+class oddOReven
+{
+Public static void main(String args[])
+{
+int x;
+scanner in=new scanner(System.in);
+System.out.println("enter the numberv");
+x= in.nextInt();
+if(x%2==0)
+{
+System.out.println("this is an even  number");
+}
+else
+{
+System.out.println("this is an odd number");
+}
+}
